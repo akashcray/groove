@@ -1,0 +1,176 @@
+/*Extra small devices (Portrait phones, Less than 576)*/
+@media (max-width: 575.98px){
+/*----------------------------
+		HEADER START
+-----------------------------*/
+.bg-img{
+	min-height: 620px;
+}
+.menu ul li {
+    text-align: center;
+    padding: 8px 0;
+    margin: 0;
+}
+/*----------------------------
+		HEADER END
+-----------------------------*/
+/*----------------------------
+		BANNER TEXT START
+-----------------------------*/
+.banner-text {
+    padding-top: 50px;
+}
+.banner-content h2{
+	font-size: 32px;
+}
+/*----------------------------
+		BANNER TEXT END
+-----------------------------*/
+/*----------------------------
+		MARKETING START
+-----------------------------*/
+.marketing{
+	padding: 70px 0;
+}
+.box1 , .box2 , .box2 , .box3 , .box4{
+	padding-bottom: 30px;
+}
+
+/*----------------------------
+		MARKETING END
+-----------------------------*/
+
+/*----------------------------
+		DOWNLOAD START
+-----------------------------*/
+.download{
+	padding: 70px 0;
+}
+.d-left {
+    text-align: center;
+}
+/*----------------------------
+		DOWNLOAD END
+-----------------------------*/
+
+}
+
+/*small devices (Landscape phones, 576 and Up)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+
+/*----------------------------
+		HEADER START
+-----------------------------*/
+.bg-img{
+	min-height: 700px;
+}
+.menu ul li {
+    text-align: center;
+    padding: 8px 0;
+    margin: 0;
+}
+/*----------------------------
+		HEADER END
+-----------------------------*/
+
+/*----------------------------
+		BANNER TEXT START
+-----------------------------*/
+.banner-text {
+    padding-top: 100px;
+}
+.banner-content h2{
+	font-size: 32px;
+}
+/*----------------------------
+		BANNER TEXT END
+-----------------------------*/
+
+/*----------------------------
+		MARKETING START
+-----------------------------*/
+.marketing{
+	padding: 70px 0;
+}
+.box1 , .box2 , .box2 , .box3 , .box4{
+	padding-bottom: 30px;
+}
+
+/*----------------------------
+		MARKETING END
+-----------------------------*/
+
+}
+
+/*Medium devices (Tablets, 768 and Up)*/
+@media (min-width: 768px) and (max-width: 991.98px){
+/*----------------------------
+		HEADER START
+-----------------------------*/
+.bg-img{
+	min-height: 620px;
+}
+.menu ul li {
+    text-align: center;
+    padding: 8px 0;
+    margin: 0;
+}
+/*----------------------------
+		HEADER END
+-----------------------------*/
+
+}
+
+/*Large devices (desktops, 992 and Up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+	
+/*----------------------------
+		MARKETING START
+-----------------------------*/
+	/*Boxes*/
+.box1{
+	left: 8%;
+}
+.box2{
+    right: 5%;
+    padding-top: 90px;
+}
+.box3{
+	left: 2%;
+    top: -20px;
+}
+.box4{
+    right: 10%;
+    padding-top: 90px;
+}
+/*----------------------------
+		MARKETING END
+-----------------------------*/
+}
+
+/*Extra large devices (large desktops, 1200 and Up)*/
+@media (min-width: 1200px){
+/*----------------------------
+		MARKETING START
+-----------------------------*/
+	/*Boxes*/
+.box1{
+	left: 8%;
+}
+.box2{
+    right: 5%;
+    padding-top: 90px;
+}
+.box3{
+	left: 2%;
+    top: -20px;
+}
+.box4{
+    right: 10%;
+    padding-top: 90px;
+}
+/*----------------------------
+		MARKETING END
+-----------------------------*/
+}
+}

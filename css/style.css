@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+/*font-family: 'Work Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+/*----------------------------
+		TYPOGRAPHY
+-----------------------------*/
+body{
+	font-family: 'Work Sans', sans-serif;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+
+/*----------------------------
+		HEADER START
+-----------------------------*/
+
+/*----- Bg-img Start -----*/
+.bg-img{
+	background-image: url(../img/bg-img.jpg);
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+/*----- Bg-img End -----*/
+
+.header{
+	padding: 40px 0;
+}
+.menu ul li{
+	margin: 0 30px;
+}
+.menu ul li:last-child{
+	margin-right: 0;
+}
+.menu li a{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 600;
+	color: #fff !important;
+	padding: 0 !important;
+	border-bottom: 1.5px solid transparent;
+	transition: .4s ease-in-out;
+	position: relative;
+}
+.menu li a:before{
+	content: "";
+	width: 0;
+	height: 2px;
+	background: #fff !important;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	transition: .5s;
+}
+.menu li:hover a:before{
+	width: 100%;
+}
+.ntggle:focus{
+	outline: none;
+}
+
+/*----------------------------
+		HEADER END
+-----------------------------*/
+/*----------------------------
+		BANNER TEXT START
+-----------------------------*/
+
+.banner-text{
+	padding: 70px 0 0;
+}
+.banner-content:{
+	/*position: relative;*/
+}
+.banner-content h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 45px;
+	font-weight: 700;
+	color: #fff;
+}
+.banner-content p{
+	font-weight: 400;
+	color: #fff;
+	margin: 25px 0 40px;
+}
+.btn-custom{
+	font-weight: 600;
+	background: transparent;
+    border-color: #fff;
+    color: #fff;
+    margin: 0 10px;
+}
+.btn-custom:hover{
+	background: #fff;
+	color: #000;
+	border-color: #fff;
+}
+.mobile{
+	padding-top: 70px;
+}
+
+/*----------------------------
+		BANNER TEXT END
+-----------------------------*/
+
+/*----------------------------
+		MARKETING START
+-----------------------------*/
+
+.marketing{
+	background-color: #fafafc;
+    padding: 90px 0 100px;}
+
+/*M-content*/
+.c_row{
+	justify-content: space-between;
+}
+.m-box{
+	text-align: center;
+	box-shadow: 0px 0px 5px 2px #dcdbdb9e;
+	padding: 10px;
+	background: #fff;
+}
+.m-box img{
+	padding: 30px 0 25px;
+}
+.m-box h4{
+	font-size: 16px;
+	font-weight: 600;
+	padding-bottom: 20px;
+	margin: 0;
+}
+.m-box p{
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+
+/*----------------------------
+		MARKETING END
+-----------------------------*/
+
+/*----------------------------
+		DOWNLOAD START
+-----------------------------*/
+.download{
+	padding: 70px 0 90px;
+}
+.d-left{
+	text-align: right;
+}
+.title{
+	font-size: 30px;
+	font-weight: 700;
+	color: #233148;
+	margin: 0;
+}
+.d-left p{
+	color: #6a6d89;
+	margin: 50px 0 30px;
+}
+.d-left button{
+	font-weight: 600;
+	background-color: #1abce8;
+	color: #fff;
+	border-color: #1abce8;
+	transition: .4s ease-in-out;
+}
+.d-left button:hover{
+	background: transparent;
+	color: #000;
+}
+/*d-right*/
+.d-right{}
+.d-item{
+	padding: 15px;
+	margin: 20px 0;
+	width: 100%;
+	box-shadow: 0px 3px 5px 2px #dcdbdb9e;
+	cursor: pointer;
+	transition: .4s linear;
+}
+.item-img{
+	display: inline-block;
+    width: 10%;
+    text-align: center;
+}
+.item-text{
+	display: inline-block;
+	width: 85%;
+}
+.item-text h2{
+	font-size: 16px;
+	font-weight: 600;
+	color: #233148;
+}
+.d-item:hover{
+	background: #1abce8;
+}
+.tag{
+	position: relative;
+    top: -40px;
+}
+/*----------------------------
+		DOWNLOAD END
+-----------------------------*/
+
+/*----------------------------
+		DEVICE START
+-----------------------------*/
+.device{
+	background-color: #fafafc;
+	padding: 70px 0 90px;
+}
+.dev{
+	padding: 50px 0;
+}
+.dev-text{
+	width: 100%;
+	padding: 8px 0;
+}
+.dev-img{
+	display: inline-block;
+	width: 6%;
+}
+.dev-text h4{
+	display: inline-block;
+	width: 90%;
+	font-size: 16px;
+	margin: 0;
+}
+.device-content p{
+	color: #6a6d89;
+}
+
+/*----------------------------
+		DEVICE END
+-----------------------------*/
+
+/*----------------------------
+		APPS START
+-----------------------------*/
+.apps{
+	background-image: url(../img/bg-img-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	
+	padding: 70px 0 90px;
+}
+.apps-content p{
+	color: #fff;
+	padding: 40px 0 30px;
+}
+.apps-store a img{
+	padding-right: 25px;
+}
+
+/*----------------------------
+		APPS END
+-----------------------------*/
+
+/*----------------------------
+		INFO START
+-----------------------------*/
+.info{
+	padding: 70px 0 0px;
+}
+.info-item{}
+.info-title{
+	font-weight: 600;
+	color: #233148;
+}
+.info-item ul{
+	padding: 0;
+}
+.info-item ul li{
+	list-style: none;
+}
+.info-item ul li a{
+	display: inline-block;
+	color: #6a6d89 !important;
+	text-decoration: none;
+	padding: 5px 0 !important;
+	transition: .3s linear;
+}
+.info-item ul li:hover a{
+	color: #1abce8 !important;
+}
+.get{
+	position: relative;
+	display: inline-block;
+	background-color: #f7407c;
+	padding: 15px 40px;
+	top: -100px;
+	cursor: pointer;
+}
+.get h1{
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	margin: 0;
+}
+
+/*----------------------------
+		INFO END
+-----------------------------*/
+
+/*----------------------------
+		NEWSLETTER START
+-----------------------------*/
+.newsletter{
+	padding: 70px 0 90px;
+}
+.n-title{}
+.n-title p{
+	color: #6a6d89;
+	padding-top: 40px;
+}
+.form{
+	padding-top: 70px;
+}
+.input-box{}
+.input{
+	width: 100%;
+    height: 50px;
+    font-size: 25px;
+    background: #f6f7fb;
+    border: none;
+    padding: 0 8px;
+}
+.input:focus{
+	outline-color: #1abce8;
+}
+.sub{}
+.cc_btn{
+	width: 100%;
+    padding: 12px 0;
+    border: 2px solid #1abce8;
+    font-weight: 600;
+    background: #1abce8;
+    color: #fff;
+    transition: .4s ease-in-out;
+}
+.cc_btn:hover{
+	color: #000;
+	background: transparent;
+}
+.cc_btn:focus{
+	outline-color: #1abce8;
+}
+/*----------------------------
+		NEWSLETTER END
+-----------------------------*/
+
+/*----------------------------
+		FOOTER START
+-----------------------------*/
+.footer{
+	background-color: #233148;
+	padding: 35px 0;
+}
+.copyright{}
+.copyright p{
+	margin: 0;
+	color: #fff;
+}
+.social{}
+.social ul{
+	padding: 0;
+	margin: 0;
+}
+.social ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 10px;
+}
+.social ul li a span{
+	font-size: 20px;
+	color: #fff;
+	transition: .2s linear;
+}
+.social ul li:hover span{
+	color: #1abce8;
+}
+/*----------------------------
+		FOOTER END
+-----------------------------*/
